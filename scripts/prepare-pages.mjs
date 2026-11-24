@@ -16,6 +16,7 @@ await cp(resolve(root, 'ui/style.css'), resolve(docs, 'style.css'));
 await cp(resolve(root, 'client/main.js'), resolve(docs, 'client/main.js'));
 await cp(resolve(root, 'data/player.json'), resolve(docs, 'data/player.json'));
 await cp(resolve(root, 'public/vendor/three.module.js'), resolve(docs, 'vendor/three.module.js'));
+await cp(resolve(root, 'public/vendor/three.core.js'), resolve(docs, 'vendor/three.core.js'));
 await cp(resolve(root, 'public/vendor/THREE-LICENSE.txt'), resolve(docs, 'vendor/THREE-LICENSE.txt'));
 await cp(resolve(root, 'public/wasm'), resolve(docs, 'wasm'), { recursive: true, force: true });
 
