@@ -1,0 +1,12 @@
+{
+  "name": "konoha-sombras-da-floresta",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "check": "node --check client/main.js && node --check server.mjs && node --check scripts/prepare-pages.mjs",
+    "build:pages": "node scripts/prepare-pages.mjs"
+  }
+}

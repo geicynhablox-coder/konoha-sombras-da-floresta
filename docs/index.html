@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <base href="./">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111915" />
+    <title>Konoha: Sombras da Floresta</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  </head>
+  <body>
+    <main id="game" aria-label="Konoha: Sombras da Floresta">
+      <div id="scene" aria-hidden="true"></div>
+      <header class="brand"><span class="leaf">木ノ葉</span><div><p>PROTÓTIPO DE FÃ</p><h1>Konoha <i>•</i> Sombras da Floresta</h1></div></header>
+      <section class="mission-card"><span class="eyebrow">PRÓLOGO · CLAREIRA</span><h2>Primeiros passos</h2><p>Explore a clareira e prepare-se para sua primeira missão.</p></section>
+      <section class="hud" aria-label="Status do personagem">
+        <div class="vitals"><div class="meter"><span>VITALIDADE</span><b><i class="hp"></i></b></div><div class="meter"><span>CHAKRA</span><b><i class="chakra"></i></b></div><div class="meter"><span>STAMINA</span><b><i id="stamina"></i></b></div></div>
+        <div class="prompt"><kbd>W A S D</kbd> mover <kbd>SHIFT</kbd> correr</div>
+      </section>
+      <div id="notice" class="notice" role="status" hidden></div>
+      <div class="crosshair" aria-hidden="true">+</div>
+    </main>
+    <script type="module" src="./client/main.js"></script>
+  </body>
+</html>

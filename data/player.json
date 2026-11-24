@@ -1,0 +1,5 @@
+{
+  "name": "Ninja",
+  "appearance": { "bodyColor": "#285d75", "scarfColor": "#d85a39" },
+  "movement": { "walkSpeed": 4.5, "sprintSpeed": 8.0, "stamina": 100 }
+}
